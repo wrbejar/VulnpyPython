@@ -19,7 +19,7 @@ fastapi_extras = {
     "python-multipart<1",
 } | trigger_extras
 
-gunicorn_min_extras = {"gunicorn==0.16.1"}
+gunicorn_min_extras = {"gunicorn==20.1.0"}
 gunicorn_max_extras = {"gunicorn==20.1.*"}
 
 uvicorn_min_extras = {"uvicorn==0.14"}
