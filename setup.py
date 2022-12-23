@@ -30,7 +30,7 @@ uwsgi_min_extras = {"uwsgi==2.0.14"}
 
 pyramid_extras = {
     "pyramid<3",
-    "waitress<2.1",
+    "waitress<2.2",
 } | trigger_extras
 
 wsgi_extras = trigger_extras
