@@ -71,7 +71,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install coverage
       - name: Download coverage results
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
       - name: Compute coverage
         run: |
           coverage combine artifact/
