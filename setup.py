@@ -26,7 +26,7 @@ uvicorn_min_extras = {"uvicorn==0.14"}
 uvicorn_max_extras = {"uvicorn==0.17"}
 
 uwsgi_max_extras = {"uwsgi==2.0.*"}
-uwsgi_min_extras = {"uwsgi==2.0.14"}
+uwsgi_min_extras = {"uwsgi==2.0.24"}
 
 pyramid_extras = {
     "pyramid<3",
