@@ -22,8 +22,8 @@ fastapi_extras = {
 gunicorn_min_extras = {"gunicorn==0.16.1"}
 gunicorn_max_extras = {"gunicorn==20.1.*"}
 
-uvicorn_min_extras = {"uvicorn==0.14"}
-uvicorn_max_extras = {"uvicorn==0.17"}
+uvicorn_min_extras = {"uvicorn==0.29.0"}
+uvicorn_max_extras = {"uvicorn==0.29.0"}
 
 uwsgi_max_extras = {"uwsgi==2.0.*"}
 uwsgi_min_extras = {"uwsgi==2.0.14"}
